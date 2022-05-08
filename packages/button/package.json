@@ -1,15 +1,9 @@
 {
   "name": "@uno-ui/button",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "description": "unocss component",
   "main": "./src/index.ts",
-  "scripts": {
-    "build": "vite build",
-    "stub": "unbuild --stub",
-    "prepublishOnly": "pnpm run build",
-    "test": "vitest"
-  },
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "dependencies": {
