@@ -1,6 +1,6 @@
 {
   "name": "@uno-ui/button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "unocss component",
   "main": "./src/index.ts",
