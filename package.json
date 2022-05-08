@@ -2,7 +2,7 @@
   "name": "@unoui/monorepo",
   "private": true,
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.0.0",
   "scripts": {
     "prepare": "pnpm -r run stub",
@@ -17,7 +17,7 @@
     "example:preview": "npm -C example/vue run preview"
   },
   "devDependencies": {
-    "@unoui/button":"workspace:*",
+    "@unoui/button": "workspace:*",
     "@elonehoo/eslint-config": "^2.0.0",
     "@iconify-json/carbon": "^1.1.4",
     "@types/node": "^17.0.31",
