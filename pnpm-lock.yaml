@@ -91,6 +91,7 @@ importers:
     specifiers:
       '@elonehoo/eslint-config': ^2.0.0
       '@iconify-json/carbon': ^1.1.4
+      '@uno-ui/button': workspace:*
       '@unocss/reset': ^0.32.13
       '@vitejs/plugin-vue': ^2.3.2
       '@vue/compiler-sfc': ^3.2.33
@@ -106,6 +107,7 @@ importers:
     devDependencies:
       '@elonehoo/eslint-config': 2.0.0_eslint@8.15.0+typescript@4.6.4
       '@iconify-json/carbon': 1.1.4
+      '@uno-ui/button': link:../button
       '@unocss/reset': 0.32.13
       '@vitejs/plugin-vue': 2.3.2_vite@2.9.8+vue@3.2.33
       '@vue/compiler-sfc': 3.2.33
