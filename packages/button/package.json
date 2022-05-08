@@ -1,11 +1,11 @@
 {
   "name": "@uno-ui/button",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "type": "module",
   "description": "unocss component",
   "main": "./src/index.ts",
   "scripts": {
-    "build": "rimraf dist && unbuild",
+    "build": "vite build",
     "stub": "unbuild --stub",
     "prepublishOnly": "pnpm run build",
     "test": "vitest"
