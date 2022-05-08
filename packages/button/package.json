@@ -1,5 +1,5 @@
 {
-  "name": "@unoui/main",
+  "name": "@unoui/button",
   "version": "0.0.0",
   "type": "module",
   "description": "",
@@ -31,7 +31,6 @@
     "typescript": "^4.5.4",
     "unocss": "^0.32.1",
     "vite": "^2.9.5",
-    "vitest": "^0.10.0",
     "vue-tsc": "^0.34.7"
   }
 }

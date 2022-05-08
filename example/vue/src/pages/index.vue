@@ -1,17 +1,23 @@
 <script setup lang="ts">
-import Main from '@vitem/main'
-import { useRouter } from 'vue-router'
-
-const router = useRouter()
-
-const name:string = $ref('')
+import unoButton from '@unoui/button'
 
 function go(){
-  if (name.length > 0)
-    router.push(`/hi/${encodeURIComponent(name)}`)
+  console.log("button")
 }
+
+
 </script>
 
 <template>
-<Main v-model:name="name" @go="go" />
+  <div>
+    <unoButton type="success" @click="go" name="Success" />
+    <br />
+    <unoButton type="warning" @click="go" name="Warning" />
+    <br />
+    <unoButton type="error" @click="go" name="Error" />
+    <br />
+    <unoButton type="info" @click="go" name="Info" />
+    <br />
+    <unoButton @click="go" name="Basic" />
+  </div>
 </template>

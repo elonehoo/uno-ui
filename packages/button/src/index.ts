@@ -1,3 +1,3 @@
-import button from "./button.vue"
+import unoButton from "./unoButton.vue"
 
-export default button
+export default unoButton
