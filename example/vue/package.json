@@ -16,7 +16,7 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "devDependencies": {
-    "@unoui/button":"workspace:*",
+    "@uno-ui/button":"workspace:*",
     "vue-router": "4",
     "vue": "^3.2.25",
     "vue-tsc": "^0.34.7",

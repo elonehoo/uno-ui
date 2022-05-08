@@ -7,8 +7,8 @@ importers:
       '@elonehoo/eslint-config': ^2.0.0
       '@iconify-json/carbon': ^1.1.4
       '@types/node': ^17.0.31
+      '@uno-ui/button': workspace:*
       '@unocss/reset': ^0.32.13
-      '@unoui/button': workspace:*
       '@vitejs/plugin-vue': ^2.3.2
       bumpp: ^7.1.1
       eslint: ^8.15.0
@@ -25,8 +25,8 @@ importers:
       '@elonehoo/eslint-config': 2.0.0_eslint@8.15.0+typescript@4.6.4
       '@iconify-json/carbon': 1.1.4
       '@types/node': 17.0.31
+      '@uno-ui/button': link:packages/button
       '@unocss/reset': 0.32.13
-      '@unoui/button': link:packages/button
       '@vitejs/plugin-vue': 2.3.2_vite@2.9.8+vue@3.2.33
       bumpp: 7.1.1
       eslint: 8.15.0
@@ -43,8 +43,8 @@ importers:
   example/vue:
     specifiers:
       '@types/node': ^17.0.31
+      '@uno-ui/button': workspace:*
       '@unocss/reset': ^0.32.13
-      '@unoui/button': workspace:*
       '@vitejs/plugin-vue': ^2.3.2
       unocss: ^0.32.9
       vite: ^2.9.5
@@ -53,8 +53,8 @@ importers:
       vue-tsc: ^0.34.7
     devDependencies:
       '@types/node': 17.0.31
+      '@uno-ui/button': link:../../packages/button
       '@unocss/reset': 0.32.13
-      '@unoui/button': link:../../packages/button
       '@vitejs/plugin-vue': 2.3.2_vite@2.9.7+vue@3.2.33
       unocss: 0.32.9_vite@2.9.7
       vite: 2.9.7
