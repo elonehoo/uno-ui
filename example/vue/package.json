@@ -1,0 +1,25 @@
+{
+  "name": "@vitem/example",
+  "private":"true",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 3333 --open",
+    "build": "vite build",
+    "preview": "vite preview --port 8766 --open",
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vue-router": "4",
+    "vue": "^3.2.25",
+    "vue-tsc": "^0.34.7",
+    "unocss": "^0.32.9",
+    "vite": "^2.9.5"
+  }
+}
