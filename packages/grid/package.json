@@ -1,0 +1,17 @@
+{
+  "name": "@uno-ui/button",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "unocss component",
+  "main": "./src/index.ts",
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@iconify-json/carbon": "^1.1.3",
+    "@unocss/reset": "^0.32.1",
+    "unocss": "^0.32.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1"
+  }
+}
