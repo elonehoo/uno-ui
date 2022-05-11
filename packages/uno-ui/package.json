@@ -6,6 +6,7 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "license": "MIT",
   "dependencies": {
-    "@uno-ui/button":"workspace:*"
+    "@uno-ui/button":"workspace:*",
+    "@uno-ui/grid":"workspace:*"
   }
 }
