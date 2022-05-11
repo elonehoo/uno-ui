@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import unoButton from '@unoui/button'
+import unoButton from '@uno-ui/button'
 
 function go(){
   console.log("button")
@@ -10,14 +10,6 @@ function go(){
 
 <template>
   <div>
-    <unoButton type="success" @click="go" name="Success" />
-    <br />
-    <unoButton type="warning" @click="go" name="Warning" />
-    <br />
-    <unoButton type="error" @click="go" name="Error" />
-    <br />
-    <unoButton type="info" @click="go" name="Info" />
-    <br />
-    <unoButton @click="go" name="Basic" />
+    <uno-button>button</uno-button>
   </div>
 </template>
