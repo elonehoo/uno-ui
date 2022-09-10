@@ -19,7 +19,7 @@
     "@vue/compiler-sfc": "3.2.39",
     "vite": "3.1.0",
     "vue": "3.2.39",
-    "vue-tsc": "0.34.17"
+    "vue-tsc": "0.40.13"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
