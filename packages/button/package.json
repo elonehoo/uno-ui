@@ -12,6 +12,6 @@
     "unocss": "^0.45.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "3.1.0"
+    "@vitejs/plugin-vue": "3.1.2"
   }
 }
