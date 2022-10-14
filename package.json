@@ -16,9 +16,9 @@
     "example:preview": "npm -C example/vue run preview"
   },
   "dependencies": {
-    "@vue/compiler-sfc": "3.2.39",
+    "@vue/compiler-sfc": "3.2.41",
     "vite": "3.1.0",
-    "vue": "3.2.39",
+    "vue": "3.2.41",
     "vue-tsc": "0.40.13"
   },
   "devDependencies": {
